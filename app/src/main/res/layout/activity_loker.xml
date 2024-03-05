@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textLoker1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:text="Loker1"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/loker1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/icon_locker"
+        android:layout_below="@+id/textLoker1"/>
+
+    <TextView
+        android:id="@+id/textLoker2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:text="Loker2"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/loker2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/icon_locker"
+        android:layout_below="@+id/textLoker2"/>
+
+
+    <TextView
+        android:id="@+id/textLoker3"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:text="Loker3"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/loker1"/>
+
+    <ImageView
+        android:id="@+id/loker3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/icon_locker"
+        android:layout_below="@+id/textLoker3"/>
+
+
+    <TextView
+        android:id="@+id/textLoker4"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:text="Loker4"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/loker2"/>
+
+    <ImageView
+        android:id="@+id/loker4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/icon_locker"
+        android:layout_below="@+id/textLoker4"/>
+
+</RelativeLayout>
